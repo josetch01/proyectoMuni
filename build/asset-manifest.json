@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/proyectoMuni/build/static/css/main.c8326007.css",
+    "main.js": "/proyectoMuni/build/static/js/main.ecee109a.js",
+    "static/media/logoerlan.png": "/proyectoMuni/build/static/media/logoerlan.266c932c2c21e176e502.png",
+    "static/media/slogan.png": "/proyectoMuni/build/static/media/slogan.78c0c6ac3dcbb9670426.png",
+    "index.html": "/proyectoMuni/build/index.html",
+    "main.c8326007.css.map": "/proyectoMuni/build/static/css/main.c8326007.css.map",
+    "main.ecee109a.js.map": "/proyectoMuni/build/static/js/main.ecee109a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c8326007.css",
+    "static/js/main.ecee109a.js"
+  ]
+}

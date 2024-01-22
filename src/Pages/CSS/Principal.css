@@ -1,0 +1,173 @@
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(53, 53, 166);
+  padding: 5px 25px;
+}
+header{
+  padding: 25px 50px;
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+}
+.logoerlan{
+  width: 15%;
+  height: 80px;
+  object-fit: cover;
+}
+.sloganerlan{
+  width: 20%;
+  height: 80px;
+}
+.salir{
+  text-decoration: none;
+  font-size: 18px;
+  color: #fff;
+  margin: 10px 30px;
+}
+.salir:hover{
+  color: white;
+}
+
+.cardsasistencia{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.contenedordecards{
+  display: flex;
+  flex-direction: column;
+}
+.headerprincipal{
+margin: 10px;
+font-size: 30px;
+font-weight: bold;
+text-align: center;
+
+width: 100%;
+}
+.Divservicios{
+display: flex;
+justify-content: space-around;
+gap: 30px;
+}
+.linkdni{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(53, 53, 166);
+  padding: 15px;
+  border-radius: 10px;
+}
+.linkdni{
+  color: white;
+  font-size: 20px;
+}
+.linkdni i{
+  font-size: 80px;
+  color: rgb(226, 170, 39);
+
+}
+.horaactual{
+text-align: right;
+margin-left: auto;
+margin-right: 20px;
+font-size: 18px;
+color: rgb(26, 26, 161);
+font-weight: 500;
+margin-right: 50px;
+}
+@media screen and (max-width:480px) {
+  header{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 100%;
+      padding: 5px;
+    }
+    .logoerlan{
+      width: 50%;
+      height: 100px;
+      object-fit: cover;
+    }
+    .sloganerlan{
+      width: 40%;
+      height: 70px;
+    }
+    nav{
+      padding: 5px 0;
+    }
+    label {
+      margin-right: 0;
+      font-size: 18px;
+    }
+    input {
+      padding:7px;
+      margin-right: 0;
+      border-radius: 5px;
+      width: 100%;
+      text-align: center;
+      box-shadow: 3px 1px 3px black;
+      border: 1px solid #007bff;
+    }
+    .obtener-datos-btn {
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+      width: 60%;  
+    }
+    .titulodatos{
+      padding: 10px;
+      margin-left: 0;
+      font-size: 15px;
+    }
+
+    .custom-modal button{
+      background-color: rgb(194, 15, 15);
+      width: auto;
+      padding: 3px;
+      color: white;
+      font-size: 15px;
+      box-shadow: 0 0 5px 2px rgb(228, 23, 23);
+      cursor: pointer;
+    }
+    .custom-modal button:hover{
+      background-color: rgb(53, 53, 166);
+      padding: 3px;
+      color: white;
+      font-size: 15px;
+      box-shadow: 0 0 5px 2px rgb(35, 32, 103);
+      cursor: pointer;
+    }
+    .datos{
+      display: flex;
+      flex-direction: column;
+    }
+    .error-message{
+      width: 90%;
+    }
+    .salir,.atras{
+      font-size: 14px;
+    }
+    .cardsasistencia{
+      margin-top: 10px;
+      height: 100%;
+    }
+    .contenedordecards{
+      display: flex;
+      flex-direction: column;
+      justify-content:center;
+      align-items: center;
+      gap: 30px;
+    }
+    .linkdni{
+      width: 280px;
+    }
+    .horaactual{
+      font-size: 13px;
+      margin-right: 20px;
+    }
+}

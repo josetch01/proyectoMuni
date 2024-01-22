@@ -1,0 +1,396 @@
+
+/* App.css */
+body{
+  display: flex;
+  flex-direction: column;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(53, 53, 166);
+  padding: 5px 25px;
+}
+header{
+  padding: 5px 50px;
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+}
+.headertabla{
+  padding: 5px 50px;
+  display: flex;
+  justify-content: space-around;
+  height: 100px;
+  margin-top: 25px;
+  width: 80%;
+  margin: auto;
+}
+.logoerlan{
+  width: 20%;
+  height: 100px;
+  object-fit: cover;
+}
+.sloganerlan{
+  width: 20%;
+  height: 100px;
+}
+a{
+  text-decoration: none;
+}
+a:hover{
+  color: white;
+}
+.atras{
+  font-size: 18px;
+  color: #fff;
+  margin: 10px 30px;
+}.salir{
+  font-size: 18px;
+  color: #fff;
+  margin: 10px 30px;
+}
+.strongqr{
+  color: rgb(26, 26, 161);
+  font-size: 20px;
+}
+
+.control{
+  font-size: 18px;
+  font-weight: bold;
+  color: rgb(26, 26, 161);
+  margin-bottom: 30px;
+  text-align: start;
+  width: 100%;
+}
+.tituloregistro{
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(26, 26, 161);
+  margin-bottom: 30px;
+  text-align: center;
+}
+.app-container {
+  font-family: 'Arial', sans-serif;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.datos-usuario{
+  text-align: right;
+  margin-left: auto;
+  margin-right: 50px;
+  text-transform:none;
+  font-size: 20px;
+  color: rgb(26, 26, 161);
+  font-weight: bold;
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+label {
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+input {
+  padding:5px;
+  margin-right: 10px;
+  border-radius: 5px;
+  width: 150px;
+  border: 1px solid rgb(26, 26, 161);
+  box-shadow: 3px 1px 3px black;
+  text-align: center;
+
+}
+
+.error-message{
+  margin-bottom: 15px;
+  text-align: center;
+  background-color: rgb(227, 227, 94);
+  padding: 10px;
+  border-radius: 5px;
+  width: 20%;
+}
+.botonsalida{
+  color: white;
+  font-size: 20px;
+}
+.obtener-datos-btn {
+  background-color: rgb(22, 73, 200);
+  color: #fff;
+  font-weight: bold;
+  padding: 8px 50px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 5px 3px 5px #4f7093;
+  margin-top: 20px;
+
+}
+.obtener-datos-btnqr{
+  background-color: rgb(22, 73, 200);
+  color: #fff;
+  font-weight: bold;
+  padding: 8px 50px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 5px 3px 5px #4f7093;
+  margin-top: 20px;
+  margin-left: 21%;
+}
+.obtener-datos-btn:active {
+  background-color: rgb(165, 39, 39);
+  box-shadow: 5px 3px 5px #49aa7d;
+}
+
+
+
+.titulodatos{
+  color: white;
+  padding: 10px;
+  margin-left: 30px;
+  font-size: 25px;
+  text-align: center;
+}
+.header{
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(53, 53, 166);
+}
+.xcerrar{
+  background-color: rgb(222, 45, 45);
+  color: white;
+  width: 6%;
+  padding: 6px;
+  font-weight: bold;
+}
+.selectfuncion{
+  padding: 5px;
+  border-radius: 10px;
+  width: 80%;
+}
+.funcionseleccionada{
+  background-color: #007bff;
+  text-align: center;
+  padding: 10px;
+  color: white;
+  width: 100%;
+  font-weight: bold;
+}
+.funcionnoseleccionada{
+  background-color: red;
+  text-align: center;
+  padding: 10px;
+  color: white;
+  width: 100%;
+  font-weight: bold;
+}
+.custom-modal .botoncerrar{
+  background-color: rgb(194, 15, 15);
+  width: 40%;
+  padding: 3px;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  margin: 5px;
+
+}
+.custom-modal .botonentrada{
+  background-color: rgb(61, 180, 34);
+  width: 40%;
+  padding: 3px;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  margin: 5px;
+
+}
+.custom-modal .botonentrada:hover{
+  background-color: rgb(61, 180, 34);
+  padding: 3px;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+.custom-modal .botonsalida{
+  background-color: rgb(53, 53, 166);
+  width: 40%;
+  padding: 3px;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  margin: 5px;
+}
+.custom-modal .botonsalida:hover{
+  background-color: rgb(53, 53, 166);
+  padding: 3px;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+.custom-modal button .registrarplaca {
+  background-color: rgb(107, 194, 15);
+  width: 40%;
+  padding: 3px;
+  color: white;
+  font-size: 20px;
+  box-shadow: 0 0 5px 2px rgb(107, 194, 15);
+  cursor: pointer;
+}
+.custom-modal button .registrarplaca:hover{
+  background-color: rgb(170, 213, 49);
+  padding: 3px;
+  color: white;
+  font-size: 20px;
+  box-shadow: 0 0 5px 2px rgb(170, 213, 49);
+  cursor: pointer;
+}
+.datosfechayhora{
+  display: flex;
+  justify-content: space-evenly;
+}
+.fechayhora{
+  font-size: 18px;
+}
+
+.datos{
+  padding: 15px;
+}
+@media screen and (max-width:480px) {
+  body{
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+  }
+  header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 5px;
+  }
+  .logoerlan{
+    width: 50%;
+    height: 100px;
+    object-fit: cover;
+  }
+  .sloganerlan{
+    width: 40%;
+    height: 70px;
+  }
+  nav{
+    padding: 5px 0;
+  }
+  .control{
+    padding: 10px;
+  }
+  .tituloregistro{
+    font-size: 25px;
+  }
+  .app-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    padding: 0;
+  }
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .datos-usuario{
+    text-align: right;
+    margin-left: auto;
+    margin-right: 20px;
+    font-size: 14px;
+    color: rgb(26, 26, 161);
+    font-weight: bold;
+  }
+  label {
+    margin-right: 0;
+    font-size: 18px;
+  }
+  input {
+    padding:7px;
+    margin-right: 0;
+    border-radius: 5px;
+    width: 100%;
+    text-align: center;
+    box-shadow: 3px 1px 3px black;
+    border: 1px solid #007bff;
+  }
+  .obtener-datos-btn {
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 60%;  
+  }
+  .titulodatos{
+    padding: 10px;
+    margin-left: 0;
+    font-size: 15px;
+  }
+
+  .custom-modal button{
+    background-color: rgb(194, 15, 15);
+    width: 30%;
+    padding: 3px;
+    color: white;
+    font-size: 15px;
+    box-shadow: 0 0 5px 2px rgb(228, 23, 23);
+    cursor: pointer;
+  }
+  .custom-modal .botonentrada{
+    font-size: 12px;
+  }
+  .custom-modal .botonsalida{
+    font-size: 12px;
+  }
+  .custom-modal .botoncerrar{
+    font-size: 12px;
+  }
+  .fechayhora{
+    font-size: 14px;
+  }
+  .datos{
+    display: flex;
+    flex-direction: column;
+  }
+  .error-message{
+    width: 90%;
+  }
+  .xcerrar{
+    width: 15%;
+    padding: 5px;
+    font-size: 12px;
+  }
+}
+
+.botonesmodal{
+  display: flex;
+  justify-content: space-around;
+}
+.seleccimagen{
+  background-color: rgb(42, 203, 42);
+  border: none;
+  width: 170px;
+}
+.textplaca{
+  font-size: 20px;
+}

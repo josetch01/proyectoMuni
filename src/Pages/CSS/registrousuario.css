@@ -1,0 +1,109 @@
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(53, 53, 166);
+  padding: 5px 25px;
+}
+.headerru{
+  padding: 15px 50px;
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+}
+.logoerlanru{
+  width: 15%;
+  height: 70px;
+  object-fit: cover;
+}
+.sloganerlanru{
+  width: 25%;
+  height: 80px;
+  object-fit: cover;
+
+}
+.salir{
+  text-decoration: none;
+  font-size: 18px;
+  color: #fff;
+  margin: 10px 30px;
+}
+.salir:hover{
+  color: white;
+}
+
+.formulariousuario{
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+}
+.formulariousuario h2{
+  font-size: 25px;
+}
+.formulariousuario form{
+  margin: 5px;
+}
+.formulariousuario label{
+  font-weight: 500; 
+  font-size: 15px;
+  width: 100%;
+margin: 8px;
+}
+.formulariousuario input{
+  width: 100%;
+  margin-top: 5px;
+  border-radius: 5px;
+  box-shadow: none;
+  border: .5px solid rgb(115, 115, 115);
+  padding: 5px;
+  text-indent: 15px;
+  text-align: start;
+  font-size: 14px;
+}
+.formulariousuario select{
+      width: 100%;
+      margin-top: 5px;
+      border-radius: 5px;
+      box-shadow: none;
+      border: .5px solid rgb(115, 115, 115);
+      padding: 2px;
+      text-indent: 15px;
+      text-align: start;
+      font-size: 14px;
+}
+.formulariousuario button{
+  border-radius: 5px;
+  background-color: forestgreen;
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding: 5px;
+  width: 100%;
+  margin: 8px;      
+}
+
+@media screen and (max-width:480px) {
+header{
+  margin: none;
+}
+.headerru{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  padding: 15px 15px;
+}
+.logoerlanru{
+  width: 100%;
+  height: 50px;
+  object-fit: cover;
+}
+.sloganerlanru{
+  width: 100%;
+  height: 50px;
+}
+}

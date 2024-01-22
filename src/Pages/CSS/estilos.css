@@ -1,0 +1,111 @@
+.globalb{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+}
+  header{
+  padding: 5px 50px;
+  display: flex;
+  justify-content: space-evenly;
+  height: 100px;
+  margin-top: 25px;
+  width: 80%;
+  margin: auto;
+  
+}
+.logoerlan{
+  width: 20%;
+  height: 100px;
+  object-fit: cover;
+}
+.sloganerlan{
+  width: 30%;
+  height: 100px;
+}
+.error-message2{
+  text-align: center;
+  background-color: rgb(255, 0, 0);
+  padding: 10px;
+  border-radius: 5px;
+  width: 20%;
+  color: white;
+  margin: auto;
+}
+.card {
+  width: 300px;
+  height: 320px;
+  background: #F4F6FB;
+  border: 1px solid white;
+  box-shadow: 10px 10px 64px 0px rgba(180, 180, 207, 0.75);
+  -webkit-box-shadow: 10px 10px 64px 0px rgba(186, 186, 202, 0.75);
+  -moz-box-shadow: 10px 10px 64px 0px rgba(208, 208, 231, 0.75);
+  margin: auto;
+}
+
+.form {
+  padding: 25px;
+}
+
+.card_header {
+  display: flex;
+  align-items: center;
+}
+
+.card svg {
+  color: #7878bd;
+  margin-bottom: 20px;
+  margin-right: 5px;
+}
+
+.form_heading {
+  padding-bottom: 20px;
+  font-size: 21px;
+  color: #7878bd;
+}
+
+.field {
+  padding-bottom: 10px;
+}
+
+.input {
+  border-radius: 5px;
+  background-color: #e9e9f7;
+  padding: 5px;
+  width: 100%;
+  color: #7a7ab3;
+  border: 1px solid #dadaf7
+}
+
+.input:focus-visible {
+  outline: 1px solid #aeaed6;
+}
+
+.input::placeholder {
+  color: #bcbcdf;
+}
+
+.label {
+  color: #B2BAC8;
+  font-size: 14px;
+  display: block;
+  padding-bottom: 4px;
+}
+
+.botonlogin {
+  background-color: #7878bd;
+  margin-top: 10px;
+  font-size: 14px;
+  padding: 7px 12px;
+  height: auto;
+  width: 100%;
+  font-weight: 500;
+  color: white;
+  border: none;
+}
+
+.botonlogin:hover {
+  background-color: #5f5f9c;
+}
